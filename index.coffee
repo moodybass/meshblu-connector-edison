@@ -2,7 +2,10 @@
 _            = require 'lodash'
 debug           = require('debug')('meshblu-connector-edison:index')
 Kryten = require 'kryten'
-kryten = new Kryten {}
+intel = require 'galileo-io'
+kryten = new Kryten {
+    io: new intel()
+  }
 defaultSchema = require './schemas.json'
 prev = {}
 prevSchema = {}
