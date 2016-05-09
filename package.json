@@ -1,6 +1,6 @@
 {
   "name": "meshblu-connector-edison",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Meshblu Connector ",
   "homepage": "https://github.com/octoblu/edison",
   "bugs": "https://github.com/octoblu/edison/issues",
